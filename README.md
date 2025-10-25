@@ -1,4 +1,4 @@
-# 🛒 Sistema de Pedidos WebAPI (.NET 8)
+#  Sistema de Pedidos WebAPI (.NET 8)
 
 Este proyecto implementa un **sistema de pedidos básico** que demuestra el **ciclo de vida de los servicios** (`Transient`, `Scoped` y `Singleton`) en una aplicación ASP.NET Core Web API.
 
@@ -30,7 +30,7 @@ Este proyecto implementa un **sistema de pedidos básico** que demuestra el **ci
 
 ---
 
-## 🧠 Tipos de servicio implementados
+##  Tipos de servicio implementados
 
 | Tipo          | Método de registro  | Ciclo de vida                                | Descripción                                                     |
 | ------------- | ------------------- | -------------------------------------------- | --------------------------------------------------------------- |
@@ -75,7 +75,7 @@ Devuelve dos instancias distintas:
 
 ---
 
-### 🔹 **Scoped**
+###  **Scoped**
 
 Crea **una única instancia por solicitud HTTP**, compartida dentro del mismo request.
 
@@ -227,4 +227,4 @@ Una única instancia compartida en toda la aplicación.
 
 **Autor:** Oscar Espinosa Romero
 **Fecha:** Octubre 2025
-Proyecto académico — Ciclo de vida de servicios en ASP.NET Core
+Proyecto académico — Tipos de Inyección de Dependencias en .NET
